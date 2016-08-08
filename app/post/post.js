@@ -24,8 +24,7 @@ angular.module('myApp.post',['ngRoute'])
             console.log("Post Controller Clicked")
             $http.post('http://localhost:3000/posts',data)
                 .success(function (data) {
-                    $location.url('/feed');
-
+                   console.log(data)
                 })
                 .error(function()
                 {

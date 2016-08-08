@@ -21,4 +21,16 @@ angular.module('myApp.signup', ['ng-token-auth'])
                 });
         };
 
-    }]);
+    }])
+
+    .controller('SignOutCtrl', function($scope, $auth) {
+        $scope.handleSignOutBtnClick = function() {
+            $auth.signOut()
+                .then(function(resp) {
+                    // handle success response
+                })
+                .catch(function(resp) {
+                    // handle error response
+                });
+        };
+    });
