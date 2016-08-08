@@ -1,0 +1,21 @@
+{
+	"records" :[
+	{
+		"name" : "Usman",
+		"age" : "18"
+	},
+	{
+		"name" : "Usman2",
+		"age" : "183"
+	},
+	{
+		"name" : "Usman4",
+		"age" : "158"
+	},
+	{
+		"name" : "Usm123an",
+		"age" : "138"
+	}
+
+	]
+}
